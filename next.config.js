@@ -1,2 +1,4 @@
-export const reactStrictMode = true;
-export const future = { webpack5: true };
+module.exports = {
+  reactStrictMode: true,
+  future: { webpack5: true }
+}
