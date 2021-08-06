@@ -1,5 +1,9 @@
 module.exports = {
-  images: {
-    domains: ['assets.vercel.com'],
-  },
+  eslint:{
+    // ...
+    "rules": {
+      // Other rules
+      "@next/next/no-img-element": "off"
+    }
+  }
 }
